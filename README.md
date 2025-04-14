@@ -24,8 +24,7 @@ The Users table stores authentication credentials.
 
 ### **Insert Data For Task 1**
 ```sql
-create database Practical15;
-use Practical15
+
 CREATE TABLE Users (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     Username NVARCHAR(100) UNIQUE NOT NULL,
@@ -36,7 +35,7 @@ CREATE TABLE Users (
 INSERT INTO Users (Username, FullName, Email, Role)
 VALUES 
 ('Tejas22', 'Tejas', 'tejas@gmail.com', 'Admin'),
-('Shivam21', 'Shivam', 'shivam@gmail.com', 'User'),
+('Shivam21', 'Shivam', 'shivam@gmail.com', 'User');
 ```
 
 ### AccessLogs Table
